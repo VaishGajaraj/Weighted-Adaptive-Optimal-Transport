@@ -1,0 +1,17 @@
+function [grad_x_g] = grad_x_g(z, b ,ylength, sigma)
+%UNTITLED Summary of this function goes here
+%   Detailed explanation goes here
+    y0=  z(1:ylength);
+    y1=  z(2:ylength);
+    
+    arg1 = (-1/(sigma*2))*((y0-b(8))^2+(y1-b(9))^2);
+    arg2 = (-1/(sigma*2))*((y0-b(11))^2+(y1-b(12))^2);
+    
+    first_row = b(1)+ b(4)*y0+b(5)*y1+b(7)*(-1/(sigma*2))*(2*y0 - 2*b(8))*exp(arg1)+b(10)*(2*y0 - 2*b(11))*exp(arg2);
+    
+    second_row = b(3)+b(5)*y(1)+b(6)*y1+b(7)*(-1/(sigma*2))*(2*y1 - 2*b(9))*exp(arg1)+b(10)*(2*y1 - 2*b(12))*exp(arg2);
+    
+    grad_x_g = [first_row
+end
+
+
