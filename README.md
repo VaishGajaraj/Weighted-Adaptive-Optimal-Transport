@@ -7,4 +7,4 @@ For a descriptive overview of my research please refer to presentation: "Present
 
 To look into the code I worked on, please check the folder main code for the source code of the algorithm. The Gradient Dependencies folder is neccesary to run the gh.m method in this folder. 
 
-A breif thanks to all those involved in making the AM-SURE program so successful and rewarding, and to NSF grant #1646339 for providing the summer funding for my internship. Thank you also to Dr. Monty Essid for providing support during the initial stages of my research and my research group partners for helping me push through conceptual and technical hurdles. 
+A breif thanks to all those involved in making the AM-SURE program so successful and to NSF grant #1646339 for providing the  funding for my summer internship. Thank you also to Dr. Monty Essid for providing support during the initial stages of my research and my research group partners for helping me push through conceptual and technical hurdles. 
